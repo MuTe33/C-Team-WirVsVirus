@@ -1,16 +1,11 @@
-# wirvsvirus
+# WirVsVirus - Hackathon
 
-A new Flutter project.
+## Inspiration
 
-## Getting Started
+News about the corona virus is complex, dynamic and varies from state to state. There are also rumours and conspiracy theories. People need a simple solution to get official and relevant information.
 
-This project is a starting point for a Flutter application.
+## What it does
 
-A few resources to get you started if this is your first Flutter project:
+The app bundles official information, guidelines and regulations. Users can call up relevant information for their district and personal situation (e.g. risk group, neighbourhood help, etc.) at a glance - just like a weather app. The official news feed of the Federal Government, a daily podcast and an FAQ are also integrated. The information is designed in such a way that it can be shared quickly and easily. In this way, we give people additional help to keep the infection curve flat.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
