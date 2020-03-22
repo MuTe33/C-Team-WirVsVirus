@@ -16,5 +16,11 @@ Project: https://devpost.com/software/offizielle-app-zur-corona-krise
 Youtube: https://www.youtube.com/watch?v=z2QnVw-El94&feature=emb_title
 
 
+## Die App Screens
+
+![Corona_App_franzidesign](https://user-images.githubusercontent.com/48680353/77257275-911f2e00-6c73-11ea-97cf-6169d1500ca1.png)
+
+
+![Corona_App_OB_franzidesign](https://user-images.githubusercontent.com/48680353/77257295-abf1a280-6c73-11ea-8ee5-268230d26ebf.png)
 
 
