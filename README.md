@@ -12,8 +12,8 @@ The app bundles official information, guidelines and regulations. Users can call
 
 ## Social Media
 
-Project: https://devpost.com/software/offizielle-app-zur-corona-krise
-Youtube: https://www.youtube.com/watch?v=z2QnVw-El94&feature=emb_title
+- Project: https://devpost.com/software/offizielle-app-zur-corona-krise
+- Youtube: https://www.youtube.com/watch?v=z2QnVw-El94&feature=emb_title
 
 
 ## Die App Screens
