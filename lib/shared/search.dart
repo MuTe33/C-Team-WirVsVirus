@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:nightoutapp/core/models/club.dart';
 
 class ArticleSearch extends SearchDelegate {
-  final List<Clubs> clubs;
+  final List clubs;
 
   ArticleSearch({@required this.clubs});
 

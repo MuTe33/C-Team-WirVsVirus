@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:nightoutapp/core/viewmodels/base_model.dart';
-import 'package:nightoutapp/locator.dart';
 import 'package:provider/provider.dart';
+import 'package:wirvsvirus/core/viewmodels/base_model.dart';
+import 'package:wirvsvirus/locator.dart';
 
 class BaseView<T extends BaseModel> extends StatefulWidget {
   final Widget Function(BuildContext context, T model, Widget child) create;

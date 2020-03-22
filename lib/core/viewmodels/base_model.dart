@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:nightoutapp/core/enums/viewstate.dart';
+import 'package:wirvsvirus/core/enums/viewstate.dart';
 
 class BaseModel extends ChangeNotifier {
   ViewState _state = ViewState.Idle;

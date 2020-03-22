@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:wirvsvirus/bottomNavigationBar/cupertino_home_scaffold.dart';
-import 'package:wirvsvirus/bottomNavigationBar/tab_item.dart';
-import 'package:wirvsvirus/main.dart';
+import 'package:wirvsvirus/shared/bottomNavigationBar/cupertino_home_scaffold.dart';
+import 'package:wirvsvirus/shared/bottomNavigationBar/tab_item.dart';
+import 'package:wirvsvirus/views/faq_view.dart';
+import 'package:wirvsvirus/views/feed_view.dart';
+import 'package:wirvsvirus/views/regional_view.dart';
 
 
 
@@ -12,21 +14,19 @@ class BottomNavigator extends StatefulWidget {
 }
 
 class _BottomNavigatorState extends State<BottomNavigator> {
-  TabItem _currentTab = TabItem.clubs;
+  TabItem _currentTab = TabItem.feed;
 
   final Map<TabItem, GlobalKey<NavigatorState>> navigatorKeys = {
-    TabItem.clubs: GlobalKey<NavigatorState>(),
-   // TabItem.events: GlobalKey<NavigatorState>(),
-    TabItem.map: GlobalKey<NavigatorState>(),
-    TabItem.account: GlobalKey<NavigatorState>(),
+    TabItem.feed: GlobalKey<NavigatorState>(),
+    TabItem.deinort: GlobalKey<NavigatorState>(),
+    TabItem.faq: GlobalKey<NavigatorState>(),
   };
 
   Map<TabItem, WidgetBuilder> get widgetBuilders {
     return {
-      TabItem.clubs: (_) => MyHomePage(),
-     // TabItem.events: (_) => EventPage(),
-      TabItem.map: (_) => MyHomePage(),
-      TabItem.account: (_) => MyHomePage(),
+      TabItem.feed: (_) => FeedView(),
+      TabItem.deinort: (_) => RegionalView(),
+      TabItem.faq: (_) => FaqView(),
     };
   }
 
